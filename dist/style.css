@@ -243,9 +243,20 @@ table {
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 60px 70px;
     background: #f5f5f5; }
-    .wrap .section06 dd
-.work-item {
-      background: #222; }
+    .wrap .section06 .work-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .wrap .section06 .work-item img {
+        margin-bottom: 20px; }
+      .wrap .section06 .work-item h2 {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 10px; }
+      .wrap .section06 .work-item p {
+        font-size: 15px;
+        text-align: center;
+        line-height: 18px; }
   .wrap .section08 {
     height: 750px;
     background: #ececec;
